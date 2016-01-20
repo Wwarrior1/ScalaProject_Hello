@@ -1,0 +1,6 @@
+01-20 15:38:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "TASK" already exists; SQL statement:
+CREATE TABLE task (
+  id integer NOT NULL DEFAULT nextval('task_id_seq'),
+  label varchar(255)
+) [42101-176]
